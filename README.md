@@ -51,7 +51,7 @@ To install **Geo Data Viewer**, follow these steps:
       2. **Downloading a ready-made dataset**  
         - [📂 Download Example Data](https://raw.githubusercontent.com/user/repository/main/london_stations.geojson)
 
-![Installation Guide](https://github.com/Reproducible-Urban-Research/geo-data-viewer/blob/main/media/example1_london_underground_stations_vs.gif)
+![Guide](https://github.com/Reproducible-Urban-Research/geo-data-viewer/blob/main/media/example1_london_underground_stations_vs.gif)
 
 <br>
 
@@ -65,7 +65,7 @@ To install **Geo Data Viewer**, follow these steps:
   - **Shortcut:** `Ctrl + Alt + U` (Windows/Linux) | `Cmd + Alt + U` (Mac).
   - **Example:** Loading a map from a raw GeoJSON URL.
 
-[View Media](https://raw.githubusercontent.com/user/repository/main/sample.geojson)
+[Guide](https://raw.githubusercontent.com/user/repository/main/sample.geojson) -- The link Guide doesn't work in my Geo Data Viewer.
 
 <br>
 
