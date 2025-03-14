@@ -5,7 +5,7 @@ Geo Data Viewer is a __VS Code extension__ designed for viewing and analyzing ge
 
 This extension is particularly useful for users who work with geospatial data in a coding environment, enabling quick visualization and basic exploration without requiring external applications.
 
-(have a preview of the geo-data-viewer)
+(have a preview img for the geo-data-viewer)
 
 ## Features
 ### ✅ Supported Data Formats
@@ -23,30 +23,38 @@ This extension is particularly useful for users who work with geospatial data in
 To install **Geo Data Viewer**, follow these steps:  
 
 1. Open **VS Code**.  
-2. Go to the **Extensions Marketplace** (`Ctrl + Shift + X` / `Cmd + Shift + X`).  
+2. Go to the **Extensions Marketplace** (`ctrl + shift + x` / `cmd + shift + x`).  
 3. Search for **Geo Data Viewer**.  
-4. Click **Install**.  
-
-Alternatively, install via the **command line**:  
-
-```sh
-code --install-extension geo-data-viewer
-```
+4. Click **Install**.
 
 (import a install gif)
 
 
+
 ## Usage
-### `View Map`: `ctrl`/cmd + alt + m)
-### `View Map from Url`:
-### `Map Gallery`: 
+### 🚀 1️⃣ Open a Geospatial File and View It on a Map
+- Open a **geo data file** (e.g., `.geojson`, `.shp`, `.kml`, etc.) in **VS Code**.
+- Run the **"View Map"** command to visualize the data:
+  - **Shortcut:** `Ctrl + Alt + M` (Windows/Linux) or `Cmd + Alt + M` (Mac).
+  - This will open an interactive map displaying the geo data. 🗺️
+  - Example: 
 
-Opening a Geospatial File
-### Viewing Data on a Map
+### 🔗 2️⃣ Load a Map from a URL
+- You can also load a map from external sources such as:
+  - A **Kepler.gl demo app**.
+  - A **GitHub repository**.
+  - A **GitHub Gist**.
 
-Run Geo: View Map (ctrl/cmd + alt + m) command on an open geo data document to view 🗺️
-Use Geo: View Map from Url (ctrl/cmd + alt + u) command to load a map from kepler.gl demo app, github repository, or a gist
-Run Geo: Map Gallery (ctrl/cmd + alt + g) command to view a list of built-in public keplergl map configs 🗺️
+- To do this, run the **"View Map from URL"** command:
+  - **Shortcut:** `Ctrl + Alt + U` (Windows/Linux) or `Cmd + Alt + U` (Mac).
+
+
+### 🗺️ 3️⃣ Explore the Map Gallery
+- The **Map Gallery** provides a collection of built-in **public Kepler.gl map configurations**.
+- To open the gallery, run the **"Geo: Map Gallery"** command:
+  - **Shortcut:** `Ctrl + Alt + G` (Windows/Linux) or `Cmd + Alt + G` (Mac).
+  - Browse and load pre-configured maps for easy exploration.
+
 
 
 ## Example
