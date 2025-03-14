@@ -41,9 +41,9 @@ To install **Geo Data Viewer**, follow these steps:
 
 ### 🔗 2️⃣ Load a Map from a URL
 - You can also load a map from external sources such as:
-  - A **(Kepler.gl demo app)[https://kepler.gl/demo?mapUrl=https://gist.githubusercontent.com/JesperDramsch/73a2f437cfc1e6e968cddfbb4793167f/raw/66550b932db2a93a495b3e362309e676b084991b/expat_keplergl.json]**.
+  - A **[Kepler.gl demo app](https://kepler.gl/demo?mapUrl=https://gist.githubusercontent.com/JesperDramsch/73a2f437cfc1e6e968cddfbb4793167f/raw/66550b932db2a93a495b3e362309e676b084991b/expat_keplergl.json)**.
   - A **GitHub repository**.
-  - A **(GitHub Gist)[https://gist.github.com/search?l=JSON&q=keplergl]**.
+  - A **[GitHub Gist](https://gist.github.com/search?l=JSON&q=keplergl)**.
 
 - To do this, run the **"View Map from URL"** command:
   - **Shortcut:** `Ctrl + Alt + U` (Windows/Linux) or `Cmd + Alt + U` (Mac).
