@@ -30,14 +30,16 @@ To install **Geo Data Viewer**, follow these steps:
 (import a install gif)
 
 
-
 ## Usage
 ### 🚀 1️⃣ Open a Geospatial File and View It on a Map
 - Open a **geo data file** (e.g., `.geojson`, `.shp`, `.kml`, etc.) in **VS Code**.
 - Run the **"View Map"** command to visualize the data:
   - **Shortcut:** `Ctrl + Alt + M` (Windows/Linux) or `Cmd + Alt + M` (Mac).
   - This will open an interactive map displaying the geo data. 🗺️
-  - **Example:** 
+  - **Example:** [Underground Stations in London]()
+
+[View raw file](https://raw.githubusercontent.com/user/repository/main/file.json)
+
 
 ### 🔗 2️⃣ Load a Map from a URL
 - You can also load a map from external sources such as:
@@ -55,5 +57,28 @@ To install **Geo Data Viewer**, follow these steps:
 - To open the gallery, run the **"Geo: Map Gallery"** command:
   - **Shortcut:** `Ctrl + Alt + G` (Windows/Linux) or `Cmd + Alt + G` (Mac).
   - Browse and load pre-configured maps for easy exploration.
-  - **Example:**  
+  - **Example:**  [Chicago Bike Routes for 2019]()
+    
+[View raw file](https://raw.githubusercontent.com/user/repository/main/file.json)
+
+
+## Examples
+### 🚀 1️⃣ Underground Stations in London
+- get the data from Openstreetmap's Overpass
+This query retrieves all subway stations within London using [OpenStreetMap's Overpass API](https://overpass-turbo.eu).
+```overpassql
+[out:json];
+area["name"="London"]->.searchArea;
+node["railway"="station"]["station"="subway"](area.searchArea);
+out body;
+```
+
+
+
+### 🔗 2️⃣ 
+
+
+
+
+### 🗺️ 3️⃣ Explore the Map Gallery
 
