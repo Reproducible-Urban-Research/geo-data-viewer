@@ -32,7 +32,7 @@ To install **Geo Data Viewer**, follow these steps:
 3. Search for **Geo Data Viewer**.  
 4. Click **Install**.
 
-[View Media](https://raw.githubusercontent.com/user/repository/main/sample.geojson)
+![Installation Guide](https://raw.githubusercontent.com/Reproducible-Urban-Research/geo-data-viewer/main/media/Installation.gif)
 
 <br>
 
@@ -50,6 +50,8 @@ To install **Geo Data Viewer**, follow these steps:
         - Follow the steps **[here](#how-to-download-geo-data)** to extract the data.
       2. **Downloading a ready-made dataset**  
         - [📂 Download Example Data](https://raw.githubusercontent.com/user/repository/main/london_stations.geojson)
+
+![Installation Guide](https://github.com/Reproducible-Urban-Research/geo-data-viewer/blob/main/media/example1_london_underground_stations_vs.gif)
 
 <br>
 
@@ -73,7 +75,7 @@ To install **Geo Data Viewer**, follow these steps:
   - **Shortcut:** `Ctrl + Alt + G` (Windows/Linux) | `Cmd + Alt + G` (Mac).
   - Browse and load pre-configured maps for easy exploration.
 
-[View Media](https://raw.githubusercontent.com/user/repository/main/sample.geojson)
+![Installation Guide](https://github.com/Reproducible-Urban-Research/geo-data-viewer/blob/main/media/example3_mapgallery.gif)
 
 <br>
 
@@ -96,3 +98,5 @@ You can extract underground station data for London using **OpenStreetMap's Over
 3. Click Run (▶) to execute the query.
 4. Click Export and select GeoJSON format.
 5. Download the GeoJSON file.
+
+![Installation Guide](https://github.com/Reproducible-Urban-Research/geo-data-viewer/blob/main/media/example1_london_underground_stations.gif)
