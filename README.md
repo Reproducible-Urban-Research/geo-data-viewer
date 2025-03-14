@@ -5,7 +5,9 @@ Geo Data Viewer is a __VS Code extension__ designed for viewing and analyzing ge
 
 This extension is particularly useful for users who work with geospatial data in a coding environment, enabling quick visualization and basic exploration without requiring external applications.
 
-(have a preview img for the geo-data-viewer)
+![Preview](https://raw.githubusercontent.com/user/repository/main/preview.png)
+
+<br>
 
 ## Features
 ### ✅ Supported Data Formats
@@ -18,28 +20,38 @@ This extension is particularly useful for users who work with geospatial data in
 - __🔍 Attribute Inspection__ – Explore properties of geographic features.
 - __🚀 Lightweight & Fast__ – No need for bulky GIS software.
 
+<br>
+
+---
 
 ## 📌 Installation  
 To install **Geo Data Viewer**, follow these steps:  
 
 1. Open **VS Code**.  
-2. Go to the **Extensions Marketplace** (`ctrl + shift + x` / `cmd + shift + x`).  
+2. Go to the **Extensions Marketplace** (`Ctrl + Shift + X` / `Cmd + Shift + X`).  
 3. Search for **Geo Data Viewer**.  
 4. Click **Install**.
 
-(import a install gif)
+[View Media](https://raw.githubusercontent.com/user/repository/main/sample.geojson)
 
+<br>
+
+---
 
 ## Usage
 ### 🚀 1️⃣ Open a Geospatial File and View It on a Map
 - Open a **geo data file** (e.g., `.geojson`, `.shp`, `.kml`, etc.) in **VS Code**.
 - Run the **"View Map"** command to visualize the data:
-  - **Shortcut:** `Ctrl + Alt + M` (Windows/Linux) or `Cmd + Alt + M` (Mac).
-  - This will open an interactive map displaying the geo data. 🗺️
-  - **Example:** [Underground Stations in London]()
+  - **Shortcut:** `Ctrl + Alt + M` (Windows/Linux) | `Cmd + Alt + M` (Mac).
+  - This will open an interactive map displaying the geo data.
+  - 📂 **Example: Viewing Underground Stations in London**  
+    - You can obtain the Underground Stations in London dataset by:
+      1. **Downloading it from OpenStreetMap's Overpass API**  
+        - Follow the steps **[here](#how-to-download-geo-data)** to extract the data.
+      2. **Downloading a ready-made dataset**  
+        - [📂 Download Example Data](https://raw.githubusercontent.com/user/repository/main/london_stations.geojson)
 
-[View raw file](https://raw.githubusercontent.com/user/repository/main/file.json)
-
+<br>
 
 ### 🔗 2️⃣ Load a Map from a URL
 - You can also load a map from external sources such as:
@@ -48,37 +60,39 @@ To install **Geo Data Viewer**, follow these steps:
   - A **[GitHub Gist](https://gist.github.com/search?l=JSON&q=keplergl)**.
 
 - To do this, run the **"View Map from URL"** command:
-  - **Shortcut:** `Ctrl + Alt + U` (Windows/Linux) or `Cmd + Alt + U` (Mac).
-  - **Example:** 
+  - **Shortcut:** `Ctrl + Alt + U` (Windows/Linux) | `Cmd + Alt + U` (Mac).
+  - **Example:** Loading a map from a raw GeoJSON URL.
 
+[View Media](https://raw.githubusercontent.com/user/repository/main/sample.geojson)
+
+<br>
 
 ### 🗺️ 3️⃣ Explore the Map Gallery
 - The **Map Gallery** provides a collection of built-in **public Kepler.gl map configurations**.
 - To open the gallery, run the **"Geo: Map Gallery"** command:
-  - **Shortcut:** `Ctrl + Alt + G` (Windows/Linux) or `Cmd + Alt + G` (Mac).
+  - **Shortcut:** `Ctrl + Alt + G` (Windows/Linux) | `Cmd + Alt + G` (Mac).
   - Browse and load pre-configured maps for easy exploration.
-  - **Example:**  [Chicago Bike Routes for 2019]()
-    
-[View raw file](https://raw.githubusercontent.com/user/repository/main/file.json)
 
+[View Media](https://raw.githubusercontent.com/user/repository/main/sample.geojson)
 
-## Examples
-### 🚀 1️⃣ Underground Stations in London
-- get the data from Openstreetmap's Overpass
-This query retrieves all subway stations within London using [OpenStreetMap's Overpass API](https://overpass-turbo.eu).
-```overpassql
-[out:json];
-area["name"="London"]->.searchArea;
-node["railway"="station"]["station"="subway"](area.searchArea);
-out body;
-```
+<br>
 
+---
 
+## 📍 Example Queries & Sample Data
+### 🚇 1️⃣ Underground Stations in London
 
-### 🔗 2️⃣ 
+#### 🔹 **How to Download Geo Data**
+You can extract underground station data for London using **OpenStreetMap's Overpass API**.
 
-
-
-
-### 🗺️ 3️⃣ Explore the Map Gallery
-
+### ✅ **Steps to Get the Data:**
+1. Go to [Overpass Turbo](https://overpass-turbo.eu/).
+2. Paste the following query into the Overpass Turbo query window:
+   ```overpassql
+   [out:json];
+   area["name"="London"]->.searchArea;
+   node["railway"="station"]["station"="subway"](area.searchArea);
+   out body;
+3. Click Run (▶) to execute the query.
+4. Click Export and select GeoJSON format.
+5. Download the GeoJSON file.
