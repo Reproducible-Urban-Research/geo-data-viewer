@@ -5,7 +5,8 @@ Geo Data Viewer is a __VS Code extension__ designed for viewing and analyzing ge
 
 This extension is particularly useful for users who work with geospatial data in a coding environment, enabling quick visualization and basic exploration without requiring external applications.
 
-![Preview](https://raw.githubusercontent.com/user/repository/main/preview.png)
+![Preview](https://raw.githubusercontent.com/Reproducible-Urban-Research/geo-data-viewer/main/media/geo-data-viewer-1.png)
+![Preview](https://raw.githubusercontent.com/Reproducible-Urban-Research/geo-data-viewer/main/media/geo-data-viewer-2.png)
 
 <br>
 
