@@ -29,7 +29,7 @@ Alternatively, install via the **command line**:
 
 ```sh
 code --install-extension geo-data-viewer
-
+```
 
 
 ## Usage
