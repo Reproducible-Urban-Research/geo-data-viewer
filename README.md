@@ -37,16 +37,17 @@ To install **Geo Data Viewer**, follow these steps:
 - Run the **"View Map"** command to visualize the data:
   - **Shortcut:** `Ctrl + Alt + M` (Windows/Linux) or `Cmd + Alt + M` (Mac).
   - This will open an interactive map displaying the geo data. 🗺️
-  - Example: 
+  - **Example:** 
 
 ### 🔗 2️⃣ Load a Map from a URL
 - You can also load a map from external sources such as:
-  - A **Kepler.gl demo app**.
+  - A **(Kepler.gl demo app)[https://kepler.gl/demo?mapUrl=https://gist.githubusercontent.com/JesperDramsch/73a2f437cfc1e6e968cddfbb4793167f/raw/66550b932db2a93a495b3e362309e676b084991b/expat_keplergl.json]**.
   - A **GitHub repository**.
-  - A **GitHub Gist**.
+  - A **(GitHub Gist)[https://gist.github.com/search?l=JSON&q=keplergl]**.
 
 - To do this, run the **"View Map from URL"** command:
   - **Shortcut:** `Ctrl + Alt + U` (Windows/Linux) or `Cmd + Alt + U` (Mac).
+  - **Example:** 
 
 
 ### 🗺️ 3️⃣ Explore the Map Gallery
@@ -54,25 +55,5 @@ To install **Geo Data Viewer**, follow these steps:
 - To open the gallery, run the **"Geo: Map Gallery"** command:
   - **Shortcut:** `Ctrl + Alt + G` (Windows/Linux) or `Cmd + Alt + G` (Mac).
   - Browse and load pre-configured maps for easy exploration.
-
-
-
-## Example
-
-
-### - 🗺️ Example 1: Open & Visualize Geospatial Data
-📌 **How to open a geospatial file and display it on a map**  
-
-✅ **Steps:**  
-1. Open `world_cities.geojson` in **VS Code**.  
-2. Right-click → **"Geo: View Map"**.  
-3. The map will load, displaying **city markers**.
-
-### - 🔍 Example 2: Inspect Feature Properties
-**How to click on map features to explore their attributes**
-
-
-
-### - 🎨 Example 3: Customize Map Style & Visualization
-
+  - **Example:**  
 
