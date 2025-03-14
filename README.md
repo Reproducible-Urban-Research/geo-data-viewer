@@ -5,6 +5,8 @@ Geo Data Viewer is a __VS Code extension__ designed for viewing and analyzing ge
 
 This extension is particularly useful for users who work with geospatial data in a coding environment, enabling quick visualization and basic exploration without requiring external applications.
 
+(have a preview of the geo-data-viewer)
+
 ## Features
 ### ✅ Supported Data Formats
 - __📍 GeoJSON__ – Standard format for geographic data.
@@ -31,13 +33,38 @@ Alternatively, install via the **command line**:
 code --install-extension geo-data-viewer
 ```
 
+(import a install gif)
+
 
 ## Usage
-### Opening a Geospatial File
+### `View Map`: `ctrl`/cmd + alt + m)
+### `View Map from Url`:
+### `Map Gallery`: 
+
+Opening a Geospatial File
 ### Viewing Data on a Map
+
+Run Geo: View Map (ctrl/cmd + alt + m) command on an open geo data document to view 🗺️
+Use Geo: View Map from Url (ctrl/cmd + alt + u) command to load a map from kepler.gl demo app, github repository, or a gist
+Run Geo: Map Gallery (ctrl/cmd + alt + g) command to view a list of built-in public keplergl map configs 🗺️
 
 
 ## Example
-✅ A simple GeoJSON example
-✅ A basic CSV with lat/lon example 1. Underground Stations in London
-✅ A Shapefile workflow
+
+
+### - 🗺️ Example 1: Open & Visualize Geospatial Data
+📌 **How to open a geospatial file and display it on a map**  
+
+✅ **Steps:**  
+1. Open `world_cities.geojson` in **VS Code**.  
+2. Right-click → **"Geo: View Map"**.  
+3. The map will load, displaying **city markers**.
+
+### - 🔍 Example 2: Inspect Feature Properties
+**How to click on map features to explore their attributes**
+
+
+
+### - 🎨 Example 3: Customize Map Style & Visualization
+
+
